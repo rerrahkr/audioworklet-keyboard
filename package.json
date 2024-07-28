@@ -1,0 +1,36 @@
+{
+  "name": "audioworklet-keyboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "biome list --apply ./src",
+    "format": "biome format ./src --write",
+    "check": "biome check --apply ./src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "11.13.0",
+    "@emotion/styled": "11.13.0",
+    "@mui/icons-material": "5.16.5",
+    "@mui/material": "5.16.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/audioworklet": "0.0.57",
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react-swc": "3.7.0",
+    "typescript": "5.5.4",
+    "vite": "5.3.5"
+  },
+  "volta": {
+    "node": "20.16.0",
+    "yarn": "4.3.1"
+  }
+}
